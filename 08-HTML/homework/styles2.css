@@ -1,0 +1,30 @@
+.secciones {
+  border: 1px solid steelblue;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: midnightblue;
+}
+
+img {
+  width: 200px;
+  border: 10px solid navy;
+}
+
+.items {
+  font-weight: bold;
+}
+
+.info {
+  font-style: italic;
+}
+
+.tiempo {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 12px;
+}
