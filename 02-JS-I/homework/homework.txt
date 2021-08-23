@@ -1,0 +1,5 @@
+Variables: es una forma de guardar un valor que luego voy a usar.
+Strings: bloques de texto que deben estar escritos entre comillas.
+Funciones (argumentos, return): es un conjunto de instrucciones que me permiten realizar alguna tarea, modificar las variables. Los argumentos son los valores que se le pasan a la función cuando es invocada. Return finaliza la ejecución de la función y devuelve un valor. 
+Declaraciones if: es un condicional que me permite evaluar una situación, y según el caso realizar una u otra cosa. 
+Valores booleanos (true, false): representa un valor de verdad, true o false.

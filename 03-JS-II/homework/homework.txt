@@ -1,0 +1,2 @@
+for: permite crear un bucle, evaluando expresiones una y otra vez hasta devolver lo que se está buscando, o bien frenarse en un determinado momento.
+&&, ||, !: "&&" es un operador lógico que representa a "Y", permitirá evaluar AMBAS expresiones y devolverá true si AMBAS se cumplen. "||" es un operador lógico que representa a "O", a diferencia del visto antes, éste determinará si aunque sea una de las expresiones es verdadera para devolver true. "!" representa a "NO", y va a devolver el valor booleano opuesto del que se le pasa. 

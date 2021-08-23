@@ -1,0 +1,2 @@
+prototype: cuando pedimos a un objeto una propiedad que no tiene, la busca en su prototipo. Es decir, un prototipo es otro objeto que se utiliza como una fuente de propiedades alternativa.
+Constructores (de Clases): es un metodo para crear e inicializar un objeto creado a partir de una clase. 

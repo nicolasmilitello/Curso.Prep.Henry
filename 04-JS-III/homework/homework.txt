@@ -1,0 +1,1 @@
+Arrays: son variables que pueden almacenar una agrupación de valores de diferente naturaleza. 
