@@ -26,6 +26,16 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
+  let mayusculas = "";
+  let minusculas = "";
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === s[i].toUpperCase()) {
+      mayusculas = mayusculas + s[i];
+    } else {
+      minusculas = minusculas + s[i];
+    }
+  }
+  return mayusculas + minusculas;
 }
 
 function asAmirror(str) {
@@ -52,12 +62,32 @@ function capicua(numero) {
   //La misma debe retornar: "Es capicua" si el número se número que se lee igual de
   //izquierda a derecha que de derecha a izquierda. Caso contrario retorna "No es capicua"
   //Escribe tu código aquí
+  let stringNumero = numero.toString();
+  let arrayNumero = stringNumero.split("");
+  let cont = [];
+  for (let i = 0; i < arrayNumero.length; i++) {
+    if (arrayNumero[i] === arrayNumero[arrayNumero.length - (1 + i)]) {
+      cont.push(arrayNumero[i]);
+    }
+  }
+  if (cont.length === arrayNumero.length) {
+    return "Es capicua";
+  }
+  return "No es capicua";
 }
 
 function deleteAbc(cadena) {
   //Define una función que elimine las letras "a", "b" y "c" de la cadena dada
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
+  let conABC = cadena.split("");
+  let sinABC = [];
+  conABC.forEach(function (caracter) {
+    if (caracter !== "a" && caracter !== "b" && caracter !== "c") {
+      sinABC.push(caracter);
+    }
+  });
+  return sinABC.join("");
 }
 
 function sortArray(arr) {
@@ -72,6 +102,15 @@ function buscoInterseccion(arreglo1, arreglo2) {
   //Si no tienen elementos en común, retornar un arreglo vacío.
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí
+  let int = [];
+  arreglo1.forEach(function (elemento) {
+    for (let i = 0; i < arreglo2.length; i++) {
+      if (elemento === arreglo2[i]) {
+        int.push(arreglo2[i]);
+      }
+    }
+  });
+  return int;
 }
 
 // No modificar nada debajo de esta línea
